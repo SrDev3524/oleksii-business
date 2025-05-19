@@ -5,10 +5,18 @@ import { Button } from '@/components/ui/button';
 
 const projects = [
   {
+    title: "huurnl",
+    description: "Developed a streamlined rental platform allowing customers to easily book activity equipment with free delivery across the Netherlands and Belgium. Built with Laravel and Nuxt.js, featuring integrated invoicing and automated email notifications.",
+    technologies: ["Laravel", "Nuxt", "TailwindCss", "PHP"],
+    image: "/images/6.png",
+    github: "https://github.com/Daniekdegroot/offerte-huurbijdaniek",
+    liveDemo: "https://huurnu.nl/"
+  },
+  {
     title: "Cue Biopharma",
     description: "WordPress theme customization for a biopharmaceutical company focused on engineered biologics designed to mimic nature's signals to selectively expand and activate specific immune cells.",
     technologies: ["WordPress", "jQuery", "CSS", "PHP"],
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=7952&h=5304&auto=format&fit=crop&q=80",
+    image: "/images/1.png",
     github: "#",
     liveDemo: "https://www.cuebiopharma.com/"
   },
@@ -16,7 +24,7 @@ const projects = [
     title: "Primo Exchange",
     description: "Development of a token exchange platform including API integration, theme customization, custom plugin development for token exchange, and multi-language translation implementation.",
     technologies: ["WordPress", "PHP", "JavaScript", "API Integration", "Custom Plugins"],
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=3882&h=2584&auto=format&fit=crop&q=80",
+    image: "/images/2.png",
     github: "#",
     liveDemo: "https://primo.exchange/"
   },
@@ -24,7 +32,7 @@ const projects = [
     title: "The Valued Stats",
     description: "Implementation of member management system using Discord bot integration and custom membership plugin. Integration of payment gateway for subscription management.",
     technologies: ["WordPress", "Discord API", "PHP", "Payment Gateway Integration"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=2426&h=1728&auto=format&fit=crop&q=80",
+    image: "/images/3.png",
     github: "#", 
     liveDemo: "https://thevaluedstats.com/"
   },
@@ -32,7 +40,7 @@ const projects = [
     title: "Bizinabox",
     description: "Contributed to a platform providing website development tools for small businesses. Added Vue.js templates with Tailwind CSS, integrated payment APIs (Stripe, PayPal), and implemented Mailcow server integration.",
     technologies: ["Vue.js", "Laravel", "Tailwind CSS", "Stripe API", "PayPal API", "Mailcow"],
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=4076&h=2712&auto=format&fit=crop&q=80",
+    image: "/images/4.png",
     github: "#",
     liveDemo: "https://www.bizinabox.com/"
   },
@@ -40,10 +48,11 @@ const projects = [
     title: "Viali",
     description: "E-commerce website development using Flatsome theme, UX Builder, and WooCommerce for a seamless shopping experience with optimized UI/UX.",
     technologies: ["WordPress", "WooCommerce", "Flatsome Theme", "UX Builder", "PHP"],
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=6000&h=4000&auto=format&fit=crop&q=80",
+    image: "/images/5.png",
     github: "#",
     liveDemo: "https://viali.co.uk/"
   }
+  
 ];
 
 const Projects: React.FC = () => {
